@@ -107,32 +107,7 @@ The analysis identified several important patterns in the shipment dataset:
 5. **Route performance:** The top-10 route analysis identified
    routes with longer average lead times for further investigation.
 
-These findings are descriptive and do not establish causation.
-They illustrate how SQL Server and Power BI can be used to
-investigate shipment risk, disruption patterns, and logistics
-performance.
-
-The analysis identified several important patterns in the shipment dataset:
-
-1. **Shipment disruption exposure:** Approximately 61.26% of the
-   5,000 shipments experienced recorded disruptions.
-
-2. **Transport mode differences:** Air had the highest observed
-   disruption rate, while road had the lowest. This highlights
-   differences in disruption patterns across transport modes.
-
-3. **Geopolitical risk:** The observed disruption rate increased
-   across the geopolitical risk categories, from approximately
-   47.72% for low risk to 70.18% for high risk.
-
-4. **Delivery performance:** Average lead times differed across
-   transport modes, providing a basis for evaluating delivery
-   performance and transport trade-offs.
-
-5. **Route performance:** The top-10 route analysis identified
-   routes with longer average lead times for further investigation.
-
-These findings are descriptive and do not establish causation. They illustrate how SQL Server and Power BI can be used to investigate shipment risk, disruption patterns, and logistics performance.
+These findings are descriptive and do not establish causation. They illustrate how SQL Server and Power BI can be used toinvestigate shipment risk, disruption patterns, and logistics performance.
 
 ## Limitations
 
