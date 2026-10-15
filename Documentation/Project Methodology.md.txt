@@ -1,0 +1,109 @@
+# Project Methodology: Global Supply Chain Risk & Disruption Analytics
+
+## 1. Project Overview
+
+This project analyses shipment data to investigate operational performance, shipment disruptions, and potential supply-chain risk factors.
+
+The objective is to identify patterns that can help logistics and supply-chain professionals understand disruption risks and evaluate delivery performance.
+
+## 2. Business Problem
+
+Shipment disruptions and longer delivery times can affect customer service, transport costs, inventory availability, and overall supply-chain efficiency.
+
+This project investigates the following questions:
+
+- How do disruption patterns differ across transport modes?
+- How do disruption rates vary by product category?
+- How are weather conditions associated with shipment disruptions?
+- How does geopolitical risk relate to disruption rates?
+- How does carrier reliability relate to shipment disruptions?
+- How does average lead time vary by transport mode and product category?
+- Which routes have the highest average lead times?
+
+## 3. Dataset
+
+The dataset contains 5,000 shipment records covering the period 1 January 2024 to 31 December 2025.
+
+The fields include shipment dates, origin and destination ports, transport modes, product categories, shipment distances, weights, fuel-price indices, geopolitical risk scores, weather conditions, carrier reliability scores, lead times, and disruption indicators.
+
+The dataset was imported into SQL Server for data profiling, quality checks, and preparation for analysis.
+
+## 4. Tools Used
+
+- Microsoft SQL Server Management Studio (SSMS)
+- SQL
+- Microsoft Power BI
+- DAX
+- Data visualisation and exploratory data analysis
+
+## 5. Data Preparation and Quality Checks
+
+The original dataset was imported into a raw staging table before being prepared for analysis.
+
+The preparation process included:
+
+- Checking the total number of shipment records.
+- Checking shipment identifier uniqueness.
+- Reviewing date ranges and categorical values.
+- Profiling numerical fields.
+- Checking for missing or blank values.
+- Investigating unusual values and validating numerical ranges.
+- Converting fields into appropriate data types.
+- Creating a cleaned analytical table for Power BI.
+
+The final analytical table was checked to confirm that the expected 5,000 shipment records were available for analysis.
+
+## 6. Analytical Approach
+
+The analysis uses descriptive statistics and comparisons across shipment characteristics.
+
+Disruption rates are compared across transport modes, product categories, weather conditions, geopolitical risk levels, and carrier reliability levels.
+
+Lead-time analysis compares average delivery times across transport modes, product categories, and routes.
+
+These comparisons help identify patterns that may warrant further operational investigation.
+
+## 7. Power BI Dashboard
+
+The dashboard is organised into three pages.
+
+### Page 1: Overview
+
+Provides a high-level view of shipment volume, disruptions, disruption rate, average lead time, and disruption trends over time.
+
+### Page 2: Risk Analysis
+
+Examines disruption rates in relation to transport mode, weather conditions, geopolitical risk levels, and carrier reliability.
+
+### Page 3: Logistics Performance
+
+Compares average lead times by transport mode and product category and highlights routes with longer average lead times.
+
+## 8. Business Value
+
+The analysis can help logistics and supply-chain teams:
+
+- Identify shipment categories and transport modes requiring further review.
+- Monitor disruption trends over time.
+- Investigate possible relationships between external risk factors and
+  shipment disruptions.
+- Compare delivery performance across routes and transport modes.
+- Identify areas where more detailed operational analysis may be valuable.
+
+The findings can support evidence-based discussions about risk monitoring, carrier performance, and delivery efficiency.
+
+## 9. Limitations
+
+This project uses the fields and records available in the supplied dataset.
+
+Observed relationships do not establish causation. For example, a higher disruption rate within a particular risk category does not prove that the risk factor alone caused those disruptions.
+
+The results should therefore be interpreted as descriptive findings rather than definitive causal conclusions.
+
+Further analysis using additional operational data would be required to validate potential causes and estimate financial impacts.
+
+## 10. Project Outcome
+
+The project demonstrates an end-to-end analytical workflow involving data profiling, data-quality checks, SQL-based data preparation, DAX measures, and Power BI dashboard development.
+
+It applies data analytics to practical questions involving supply-chain risk, shipment disruptions, and logistics performance.
